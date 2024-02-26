@@ -1,3 +1,9 @@
+/* Program   : Titik.java */
+/* Deskripsi : file modul Titik */
+/* NIM/Nama  : 24060122120001/Fachryzaidan Akmal */
+/* Tanggal   : 26 Februari 2024 */
+/***********************************/
+
 public class Titik{
 	
         private double absis;
