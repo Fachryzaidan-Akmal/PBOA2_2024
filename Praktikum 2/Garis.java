@@ -1,4 +1,8 @@
-
+/* Program   : Garis.java */
+/* Deskripsi : file modul Garis */
+/* NIM/Nama  : 24060122120001/Fachryzaidan Akmal */
+/* Tanggal   : 26 Februari 2024 */
+/***********************************/
 
 public class Garis{
 	private Titik titikAwal;
