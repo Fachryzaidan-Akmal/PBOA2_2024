@@ -28,7 +28,7 @@ public class KontrolSenjata{
     public void menembak(int jumlah) {
         int jumlahPeluru = senjata.getPeluru();
         System.out.println(">> Siap menembak "+jumlah+" kali");
-        if (senjata.getPeluru() == 0){
+        if (jumlahPeluru == 0){
                 System.out.println("Peluru Habis");
         } else {
             for (int i = 0; i < jumlah; i++){
@@ -40,8 +40,7 @@ public class KontrolSenjata{
                     System.out.println("Gagal tembak, Peluru habis");
                 }
             }
-            senjata.setPeluru(jumlahPeluru); 
-            System.out.println(">> Sisa peluru: "+senjata.getPeluru());
+            System.out.println(">> Sisa peluru: "+jumlahPeluru);
         }
     }
     
